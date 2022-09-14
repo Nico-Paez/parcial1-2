@@ -1,0 +1,643 @@
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro&display=swap');
+
+*{
+    margin: 0rem;
+    font-family: 'Be Vietnam Pro', sans-serif;
+}
+a
+
+/*--------------*/
+/* Animaciones */
+
+a:hover{
+    color:#8B48BF;
+    cursor: pointer;
+}
+
+i:hover{
+    color:#8B48BF;
+    cursor: pointer;
+}
+
+input:focus{
+    color:#8B48BF;
+}
+
+/*--------------*/
+/*--------------*//*Terminan las animaciones*/
+
+
+body{
+    width: 100%;
+}
+
+/*--------------*/
+/*----Header----*/
+/*--------------*/
+
+header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 3.125rem;
+}
+
+header ul{
+    display: flex;
+}
+
+header ul li{
+    margin: 1rem;
+}
+
+header ul li a{
+    text-decoration: none;
+    color: #242E52;
+}
+
+.button{
+    background-color: #8B48BF;
+    color: #FFFFFF;
+    width: 8.375rem;
+    height: 2.75rem;
+    border-radius: 3.125rem;
+    border: none;
+    font-weight: 500; 
+}
+
+/* Header aparte para celular */
+
+.menuCelular{
+    display: none;
+}
+/*--------------*/
+/*--------------*//*Termina el header*/
+
+/*--------------*/
+/*-----Main-----*/
+/*--------------*/
+
+main{
+    width: 100%;
+}
+
+/*--------------*/
+/* Primera Seccion */
+    
+.section1{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 5rem;
+    flex-wrap: wrap-reverse;
+}
+
+.section1 div{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 31.25rem;
+}
+
+.section1 div h1{
+    font-size: 3.625rem;
+    margin-bottom: 1.5rem;
+    margin-top: 4.688rem;
+    font-weight: 700;
+    color: #232C50;
+}
+
+.section1 div p{
+    width: 22rem;
+    font-weight: 500;
+    line-height: 1.563rem;
+}
+
+.section1 div button{
+    margin-top: 1.5rem;
+}
+
+/*--------------*/
+/* Segunda Seccion */
+
+.section2{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+/* Parte1 Escritorio y Celular*/
+
+.divPregunta{
+    width: 31.25rem;
+}
+
+.divPregunta h2{
+    color: #232851;
+    width: 25rem;
+    margin-bottom: 1.5rem;
+    font-size: 2.25rem;
+    font-weight: 700;
+}
+
+.divPregunta p{
+    width: 21.063rem;
+    line-height: 1.563rem;
+    font-weight: 500;
+}
+
+/* Parte2 Escritorio*/
+
+.Listado{
+    width: 31.25rem;
+    margin-top: 0.625rem;
+    margin-right: 3.438rem;
+}
+
+.Listado section{
+    display: flex;
+}
+
+.numero{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #8B48BF;
+    color: #FFFFFF;
+    font-weight: 700;
+    padding: 0.625rem 1.5625rem;
+    width: 1rem;
+    height: 1.5rem;
+    border-radius: 1.875rem;
+    margin-right: 1.5rem;
+}
+
+.TituloNumero{
+    color: #323851;
+    font-weight: 700;
+    margin-top: 0.8rem;
+    margin-bottom: 1rem;   
+}
+
+.TextoNumero1{
+    color: #B3B2B7;
+    margin-bottom: 1.875rem;
+    width: 27.313rem;
+    line-height: 1.563rem;
+}
+
+.TextoNumero2{
+    color: #B3B2B7;
+    margin-bottom: 1.875rem;
+    width: 28.625rem;
+    line-height: 1.563rem;
+}
+
+.TextoNumero3{
+    color: #B3B2B7;
+    margin-bottom: 1.875rem;
+    width: 26rem;
+    line-height: 1.563rem;
+}
+
+/* Parte2 Celular*/
+
+.ListadoCelular{
+    display: none;
+}
+
+/*--------------*/
+/* Tercera Seccion */
+
+.section3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.section3 h2{
+    margin-bottom: 6rem;
+    font-weight: 700;
+    color: #242E53;
+    font-size: 2.4rem;
+    text-align: center;
+}
+
+.articulosJuntos{
+    display: flex;
+    background-color: #FAFAFA;
+}
+
+.articulosJuntos article{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 1.25rem;
+    position: relative;
+}
+
+.nombresArticulos{
+    color: #3F4868;
+    font-weight: 700;
+    margin: 1rem;
+    margin-top: 2.5rem;
+}
+
+.imgArticulos{
+    position: absolute;
+    top: -3.5rem;
+}
+
+.textoArticulos{
+    width: 25.313rem;
+    height: 4.875rem;
+    text-align: center;
+    margin-bottom: 1rem;
+    color: #B9B9C1;
+    line-height: 1.563rem;
+}
+
+.section3 button{
+    margin-top: 3rem;
+}
+/*--------------*/
+/*--------------*//*Termina el main*/
+
+/*--------------*/
+/*----Footer----*/
+/*--------------*/
+
+footer{
+    margin-top: 10rem;
+    width: 100%;
+}
+
+/* Parte1 Escritorio y Celular */
+
+.fondoVioleta{
+    background-color: #8B48BF; 
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;  
+    /* height: 14rem; */
+}
+
+.fondoVioleta button{
+    background-color: #FFFFFF;
+    color: #8B48BF;
+    font-weight: 500;
+    border: none;
+    border-radius: 3.125rem;
+    width: 8.375rem;
+    height: 2.75rem;
+    margin-right: 5.313rem;
+    /* margin-right: 7%; */
+}
+
+.fondoVioletaTexto{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #FFFFFF;
+    padding: 4rem 0rem 4rem 6rem;
+    /* margin: 4rem 0rem 4rem 6rem; */
+    /* margin-left: 8%; */
+    font-size: 2.5rem;
+    font-weight: 700;
+    height: 6rem;
+    width: 28.5rem;
+}
+
+/* Parte2 Escritorio */
+
+.fondoNegro{
+    background-color: #1E1E26;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    height: 15.438rem;
+}
+
+i{
+    color: white;
+}
+
+.cajaLogoIconos{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.imgFooter{
+    margin-top: 4.204rem;
+}
+
+.cajaLogoIconos ul{
+    display: flex;
+    flex-direction: row;
+    margin-left: -1.875rem;
+    margin-bottom: 4.313rem;
+    margin-top: 4.188rem;
+}
+
+.cajaLogoIconos ul li{
+    font-size: 1.3rem;
+    margin: 0.5rem;
+}
+
+.navegadores ul li a{
+    color:#FFFFFF;
+    text-decoration: none;
+    font-weight: 400;
+}
+
+.navegadores ul li{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    line-height: 2.4rem;
+}
+
+.navegadores ul{
+    height: 10.625rem;
+}
+
+.cajaMailDerechos p{
+    color: #8C8C94;
+    font-size: 0.781rem;
+    margin-top: 5.5rem;
+    text-align: end;
+}
+
+.footerButton{
+    background-color: #8B48BF;
+    color: #FFFFFF;
+    margin-top: 0.2rem;
+    margin-left: 0.7rem;
+    border: none;
+    border-radius: 3.125rem;
+    height: 2.625rem;
+    width: 3.938rem;
+}
+
+input{
+    border-radius: 3.125rem;
+    height: 2.75rem;
+    width: 12.563rem;
+    border: none;
+    text-indent: 0.625rem;
+}
+
+/* Parte2 Celular */
+
+.fondoNegroCelular{
+    display: none;
+}
+/*--------------*/
+/*--------------*//*Termina el footer*/
+
+/*--------------*/
+/*Media Query*/
+@media(max-width: 500px){
+    
+    body{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    /*--------------*/
+    /*----header----*/
+    /*--------------*/
+
+    header{
+        justify-content: space-between;
+        width: 90%;
+    }
+
+    header ul{
+        display: none;
+    }
+
+    header button{
+        display: none;
+    }
+
+    .menuCelular{
+        display:inline;
+        font-size: 3.125rem;
+    }
+
+    /*--------------*/
+    /*-----main-----*/
+    /*--------------*/
+
+    main{
+        width: 100%;
+    }
+
+    /*--------------*/
+    /* Primera Seccion */
+
+    .section1 div{
+        display: flex;
+        align-items: center;
+        width: 100%;
+    }
+
+    .section1 div h1{
+        text-align: center;
+        color: #232C50;
+        width: 100%;
+    }
+
+    .section1 div p{
+        text-align: center;
+        font-weight: 500;
+        width: 75%;
+    }
+
+    .section1 img{
+        width: 90%;
+    }
+
+    /*--------------*/
+    /* Segunda Seccion */
+
+    /*parte1*/
+
+    .divPregunta{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 3.125rem;
+        width: 100%;
+    }
+
+    .divPregunta h2{
+        text-align: center;
+        width: 100%;
+    }
+
+    .divPregunta p{
+        text-align: center;
+        width: 90%;
+        margin-top: 1.563rem;
+    }
+
+    /*parte2*/
+
+    .Listado{
+        display: none;
+    }
+
+    .ListadoCelular{
+        display: flex;
+        flex-direction: column;
+        margin-top: 7rem;
+    }
+
+    .ListadoCelular section{
+        margin-left: 5%;
+    }
+
+    .ListadoCelular section .espacio{
+        display: flex;
+        z-index: -1;
+        background-color: #8B48BF4D;
+        border-radius: 1.25rem 0rem 0rem 1.25rem;
+        height: 2.75rem;
+        width: 100%;
+        align-items: center;
+    }
+
+    .TituloNumero{
+        margin: 0rem;
+    }
+
+    .TextoNumero3{
+        margin-top: 2rem;
+        margin-left: 0.938rem;
+        width: 95%;
+    }
+
+    /*--------------*/
+    /* Tercera Section */
+
+    div.articulosJuntos article.anisha, div.articulosJuntos article.richard{
+        display: none;
+    }
+
+    .articulosJuntos{
+        width: 90%;
+    }
+
+    .textoArticulos{
+        width: 95%;
+        height: 90%;
+    }
+
+    /*--------------*/
+    /*----Footer----*/
+    /*--------------*/
+
+    footer{
+        margin-top: 5rem;
+    }
+
+    /*Parte 1*/
+
+    .fondoVioleta{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .fondoVioletaTexto{
+        text-align: center;
+        width: 100%;
+        height: 14.375rem;
+        padding: 0rem;
+    }
+
+    .fondoVioletaTexto p{
+        width: 20.625rem;
+    }
+
+    .fondoVioleta button{
+        margin-right: 0rem;
+        margin-bottom: 2.5rem;
+    }
+
+    /*Parte 2*/
+
+    .fondoNegro{
+        display: none;
+    }
+
+    .fondoNegroCelular{
+        background-color: #1E1E26;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .celularFormulario{
+        width: 90%;
+    }
+
+    .celularFormulario form{
+        display: flex;
+        justify-content: center;
+        margin-top: 2.813rem;
+    }
+
+    .fondoNegroCelular div form input{
+        width: 70%;
+    }
+
+    .navegadoresCelular{
+        display: flex;
+        justify-content: space-around;
+        width: 100%;
+        margin-top: 1.875rem;
+    }
+
+    .navegadoresCelular ul{
+        padding: 0px;
+    }
+
+    .iconosCelular{
+        width: 90%;
+    }
+
+    .iconosCelular ul{
+        display: flex;
+        font-size: 1.25rem;
+        margin-top: 1.875rem;
+        padding-left: 0rem;
+        width: 90%;
+        margin-right: 0rem;
+        margin-left: 5%;
+        justify-content: center;
+    }
+
+    .iconosCelular ul li{
+        margin-right: 10%;
+        margin-left: 10%;
+    }
+
+    .fondoNegroCelular img{
+        margin-top: 2.813rem;
+    }
+
+    .fondoNegroCelular p{
+        margin-top: 2.813rem;
+        margin-bottom: 2.813rem;
+        color: #8C8C94;
+    }    
+}
